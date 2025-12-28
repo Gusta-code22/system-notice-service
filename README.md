@@ -20,8 +20,6 @@ Spring Cloud Config Server
 ↓
 Repositório Git de Configurações
 
-yaml
-Copiar código
 
 - O service **não contém mensagens fixas**
 - Todo o comportamento é controlado por **configuração externa**
