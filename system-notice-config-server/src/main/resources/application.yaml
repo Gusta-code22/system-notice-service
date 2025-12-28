@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: system-notice-config-server
+
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Gusta-code22/system-notice-config-repo
+          search-paths: "system-notice-service*"
+
+server:
+  port: 8888
+  # convençao da comunidade spring para usar 8888 para config server
+

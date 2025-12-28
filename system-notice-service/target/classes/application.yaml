@@ -9,7 +9,7 @@ spring:
 
   cloud:
     config:
-      profile: error
+      profile: 
 
 management:
   endpoints:

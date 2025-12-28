@@ -1,10 +1,10 @@
-package github.io.Gusta_code22;
+package github.io.gusta_code22;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SystemNoticeServiceApplicationTests {
+class StartupTests {
 
 	@Test
 	void contextLoads() {
