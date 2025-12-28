@@ -56,8 +56,7 @@ Copiar código
 
 GET /systemnotice
 
-yaml
-Copiar código
+
 
 ### Query Params (opcional)
 
@@ -73,8 +72,7 @@ Copiar código
 
 GET /systemnotice?nome=Gustavo
 
-bash
-Copiar código
+
 
 ### Response
 
@@ -103,22 +101,19 @@ system-notice-config-repo/
 ├── system-notice-service-warn.yml
 └── system-notice-service-error.yml
 Configuração Padrão (OK)
-yaml
-Copiar código
+
 system-notice:
   level: "OK"
   message: "Olá, %s. O sistema está OK, pode continuar."
   default-value: "Usuário"
 Configuração de Aviso (WARN)
-yaml
-Copiar código
+
 system-notice:
   level: "WARN"
   message: "Olá, %s. Atenção: o sistema pode apresentar instabilidades."
   default-value: "Usuário"
 Configuração de Erro (ERROR)
-yaml
-Copiar código
+
 system-notice:
   level: "ERROR"
   message: "Olá, %s. O sistema está indisponível no momento. Tente novamente mais tarde."
@@ -132,8 +127,7 @@ Um commit é realizado
 
 O endpoint abaixo é chamado:
 
-bash
-Copiar código
+
 POST /actuator/refresh
 O comportamento da API muda sem restart
 
